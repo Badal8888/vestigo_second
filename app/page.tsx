@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="relative h-[90vh] min-h-[700px] flex items-center text-white overflow-hidden">
         {/* Background Video/Animation Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0F172A] via-[#0F172A]/80 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0b02bb] via-[#0F172A]/80 to-transparent z-10" />
           {/* Replace this URL with your actual abstract video file */}
           <video 
             autoPlay 
