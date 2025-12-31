@@ -231,6 +231,7 @@ export default function HomePage() {
       </section>
 
       {/* --- PARTNERS MARQUEE --- */}
+      
       <div className="py-20 bg-white border-y border-slate-100 overflow-hidden">
         <motion.div 
           animate={{ x: [0, -1000] }}
