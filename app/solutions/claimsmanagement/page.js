@@ -12,12 +12,23 @@ const ClaimsManagement = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-slate-50 py-20 px-6">
+      <section
+        className="
+          bg-gradient-to-r
+          from-[#0B1440]
+          via-[#243B8F]
+          to-[#C9CEDF]
+          py-24
+          px-6
+          text-white
+        "
+      >
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Claims Management <span className="text-blue-600">Reimagined</span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Claims Management <span className="text-[#E8D534]">Reimagined</span>
           </h1>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+
+          <p className="text-white/85 text-lg max-w-2xl mx-auto">
             Vestigo ke sath apne claims processing ko tez, transparent aur error-free banayein. Hum provide karte hain behtar customer experience aur smarter decision making.
           </p>
         </div>
